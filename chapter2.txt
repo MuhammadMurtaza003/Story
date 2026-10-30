@@ -1,0 +1,12 @@
+helo
+
+// first create file using git command 
+// touch filname.txt = to create fie 
+// cd .. = for backword file 
+// git init = for start creating git repository 
+// git status = to check file if they are in stagging area or not = untracked files 
+// stagging area means put file there to tack changes 
+// git add chapter1.txt = adding file in stagging area to track changes 
+// git add . = to commit changes every file that exist in that folder 
+
+  
