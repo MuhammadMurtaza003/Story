@@ -13,4 +13,7 @@ helo
 // git diff chapter1.txt = to track changes in file 
 // git checkout chapter1.txt = to reverse back to orignal version file 
 // In main branch = your progress has been saving and also show the trcks the commit 
-  
+// touch .gitignore = a secret file 
+// ls -a = for showing hidden files
+// git rm --cached -r. = means delete everything inside that folder from stagging area
+// *.txt or .log = means all the files containg that should be ignored 
