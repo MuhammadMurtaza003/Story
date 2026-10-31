@@ -17,3 +17,13 @@ helo
 // ls -a = for showing hidden files
 // git rm --cached -r. = means delete everything inside that folder from stagging area
 // *.txt or .log = means all the files containg that should be ignored 
+
+// Git Local repository = means local folder in pc where we saved our project
+// Git Remote repository = means any project available online on GitHub from where we Clone it to make changes
+// Forking = means create a copy of project in local repository then make changes then send a pull request to orignal owner to approve it so it'll be added in 
+// orignal project Remote repository
+
+// example = 1st fork the repository means copy then clone to local repository then make changes then push to Remote repository on personal account 
+// then send a pull request to its orignal owner of Remote repository 
+// owner has write access and Contributer has ReadOnly access thats why they have to send PULL REQUEST to its orignal owner then owner confirm the merge then commit is added in 
+// orignal git remoter repository
