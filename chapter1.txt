@@ -18,6 +18,12 @@ helo
 // git rm --cached -r. = means delete everything inside that folder from stagging area
 // *.txt or .log = means all the files containg that should be ignored 
 
+// git branch alien = means create demo file then after checking merge it into orignal repository
+// git checkout alien = means switched to alien branch now make changes then git add . then git commit 
+// git branch = to check current branch 
+// main branch not affected if we make changes in another branch 
+
+
 // Git Local repository = means local folder in pc where we saved our project
 // Git Remote repository = means any project available online on GitHub from where we Clone it to make changes
 // Forking = means create a copy of project in local repository then make changes then send a pull request to orignal owner to approve it so it'll be added in 
