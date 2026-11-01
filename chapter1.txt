@@ -1,0 +1,35 @@
+helo
+
+// first create file using git command 
+// touch filname.txt = to create fie 
+// cd .. = for backword file 
+// git init = for start creating git repository or creating Working directory   
+// git status = to check file if they are in stagging area or not = untracked files 
+// stagging area means put file there to tack changes 
+// git add chapter1.txt = adding file in stagging area to track changes 
+// git add . = to commit changes every file that exist in that folder 
+// git commit -m = for displaying message that commit has been saved 
+// git log = check when commit has been done , check the hash and date and name 
+// git diff chapter1.txt = to track changes in file 
+// git checkout chapter1.txt = to reverse back to orignal version file 
+// In main branch = your progress has been saving and also show the trcks the commit 
+// touch .gitignore = a secret file 
+// ls -a = for showing hidden files
+// git rm --cached -r. = means delete everything inside that folder from stagging area
+// *.txt or .log = means all the files containg that should be ignored 
+
+// git branch alien = means create demo file then after checking merge it into orignal repository
+// git checkout alien = means switched to alien branch now make changes then git add . then git commit 
+// git branch = to check current branch 
+// main branch not affected if we make changes in another branch 
+
+
+// Git Local repository = means local folder in pc where we saved our project
+// Git Remote repository = means any project available online on GitHub from where we Clone it to make changes
+// Forking = means create a copy of project in local repository then make changes then send a pull request to orignal owner to approve it so it'll be added in 
+// orignal project Remote repository
+
+// example = 1st fork the repository means copy then clone to local repository then make changes then push to Remote repository on personal account 
+// then send a pull request to its orignal owner of Remote repository 
+// owner has write access and Contributer has ReadOnly access thats why they have to send PULL REQUEST to its orignal owner then owner confirm the merge then commit is added in 
+// orignal git remoter repository
