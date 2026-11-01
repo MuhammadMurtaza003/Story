@@ -1,0 +1,45 @@
+API = Application Programming Interface 
+    = Set of rules and protocol that define how one software interact with differnet software 
+    = It bridges the communication between the differnet pieces of software
+    = An API allows one application to request and receive data from another application.
+    = In APIs We are making the GET request to get data.
+    = In response, How is data coming back is structured.
+
+Private APIs = For your use only means to communicate with server
+Public APIs =  for public use 
+
+
+Example = 
+
+A website needs to display the current weather on its loading page. There is a specific weather service website that continuously updates and stores weather information.
+To retrieve weather data from that website, we need an **API (Application Programming Interface)**, which acts as an interface between our website and the weather service,
+allowing them to communicate and exchange data.
+
+
+ Best & Popular API = There are many APIs out there but {REST:API} is best among them and most commonly used for web development 
+                    = APIs is an ARCITECHURAL STYLES 
+                    = APIs follows particular set of rules, Most important rules is to used HTTP PROTOCOL to interact with the APIs.
+                    = GET / POST / PUT / PATCH / DELETE These protocol were used to make AN REQUEST. 
+                    
+
+// STRUCTURE THE APIs REQUEST //
+
+APIs Endpoints = BaseURL/Endpoints = end word define the API Work means purpose of that API
+QuaryParameters = BaseURL/Endpoints?query=value = means key & value pair           == used for filtering & searching
+Multiple QuaryParameters = BaseURL/Endpoints?query=value&query2=value........
+In POSTMAN we define the key value pair, it can automatically add key value pair in URL 
+
+Path Parameters =  BaseURL/Endpoints/{Path-Parameters} = To find specific resource it could be ID NAME  ==  to identify resource in API
+
+GET Activity by Key = use Key as {path-Parameters}   
+        
+// JSON // JavaScript Object Notation 
+
+its a way to format data that can be sent over the internet in a readable and efficient way.
+its structured after JavaScript Object means in Key value Pair and every key is string
+Its smaller in size when tranfered across the internet, later it can reexpended where it needs to be used such us the JavaScript object
+usually JSON is in flatpack Notation == use JSONVIEWER.com to read the file 
+To send data over the internet WE NEED JSON which create turning a JavaScript object into JSON FILE MEANS from big file to flatpack.
+To do that we use METHOD from json MODULE // const jsonData = JSON.stringfy(data); // it convert js object code to jason file 
+To UNPACK JSON FILE  // const Data = JSON.parse(data); // it convert JSON file to JavaScript object.
+Then access the property use // data.propertyName // like we did in object
